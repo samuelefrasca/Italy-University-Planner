@@ -11,19 +11,27 @@
 <body>
     <h1 class="title">Italy University Planner</h1>
     <div class="container">
+        <div class="altreuni">
+            <h3>Vedi anche: </h3>
+            <a href="superiori.html">Scuole superiori</a><br>
+            <a href="private.html">Università private</a>
+        </div>
         <table>
             <thead>
                 <tr>
                     <th></th>
                     <th>Università</th>
                     <th>Città</th>
-                    <th><button onclick="ordinaPerRegione()">Regione</button></th>
-                    <th><button onclick="ordinaPerStudenti()">Studenti</button></th>
+                    <th><a onclick="ordinaPerRegione()">Regione</a></th>
+                    <th><a onclick="ordinaPerStudenti()">Studenti</a></th>
                 </tr>
             </thead>
             <tbody id="tabellauni"></tbody>
         </table>
         <script src="script.js"></script>
+        <script>
+            ordinaPerRegione();
+        </script>
     </div>
 </body>
 

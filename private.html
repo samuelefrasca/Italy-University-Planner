@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italy University Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title" style="color: transparent;">Italy University Planner</h1>
+    <div class="container">
+        <div class="altreuni">
+            <h3>Vedi anche: </h3>
+            <a href="superiori.html">Scuole superiori</a><br>
+            <a href="../">Università statali</a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Università</th>
+                    <th>Città</th>
+                    <th><a onclick="ordinaPerRegionePrivate()">Regione</a></th>
+                    <th><a onclick="ordinaPerStudentiPrivate()">Studenti</a></th>
+                </tr>
+            </thead>
+            <tbody id="tabellauni"></tbody>
+        </table>
+        <script src="script.js"></script>
+        <script>
+            renderizzaTabella(nonstatali);
+        </script>
+    </div>
+</body>
+
+</html>
