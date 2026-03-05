@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #51dbf0;
+    background-color: #ddd;
     color: #000;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -19,13 +19,25 @@ h3 {
     margin-bottom: 20px;
 }
 
-.title {
-    text-align: center;;
+.title, .subtitle {
+    text-align: center;
+    width: 100%;
 }
 
 table {
     border: 1px solid black;
+    background-color: #fff;
+    width: 100%;
 }
+
+th {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #eee;
+}
+
 th, td {
     border: 1px solid black;
     padding: 8px;
@@ -35,6 +47,7 @@ th, td {
 a {
     cursor: pointer;
     text-decoration: none;
+    color: #000;
 }
 
 a:hover {

@@ -1,178 +1,177 @@
-// Università statali italiane - tutte le 57 università
-// Array con oggetti contenenti: nome, città, regione, studenti
-
 const universita = [
     // ABRUZZO
-    { nome: "Università degli Studi 'Gabriele d'Annunzio' di Chieti-Pescara", citta: "Chieti - Pescara", regione: "Abruzzo", studenti: 21097 },
-    { nome: "Università degli Studi dell'Aquila", citta: "L'Aquila", regione: "Abruzzo", studenti: 16613 },
-    { nome: "Università degli Studi di Teramo", citta: "Teramo", regione: "Abruzzo", studenti: 5057 },
+    { nome: "Università degli Studi \"Gabriele d'Annunzio\" di Chieti-Pescara", citta: "Chieti - Pescara", regione: "Abruzzo", studenti: 21097, link: "https://www.unich.it/" },
+    { nome: "Università degli Studi dell'Aquila", citta: "L'Aquila", regione: "Abruzzo", studenti: 16613, link: "https://www.univaq.it/" },
+    { nome: "Università degli Studi di Teramo", citta: "Teramo", regione: "Abruzzo", studenti: 5057, link: "https://www.unite.it/UniTE/" },
 
     // BASILICATA
-    { nome: "Università degli Studi della Basilicata", citta: "Potenza - Matera", regione: "Basilicata", studenti: 6631 },
+    { nome: "Università degli Studi della Basilicata", citta: "Potenza - Matera", regione: "Basilicata", studenti: 6631, link: "https://portale.unibas.it/site/home.html" },
 
     // CALABRIA
-    { nome: "Università degli Studi Magna Græcia di Catanzaro", citta: "Catanzaro", regione: "Calabria", studenti: 12572 },
-    { nome: "Università della Calabria", citta: "Rende", regione: "Calabria", studenti: 23027 },
-    { nome: "Università degli Studi 'Mediterranea' di Reggio Calabria", citta: "Reggio Calabria", regione: "Calabria", studenti: 4955 },
+    { nome: "Università degli Studi Magna Græcia di Catanzaro", citta: "Catanzaro", regione: "Calabria", studenti: 12572, link: "https://web.unicz.it/it/" },
+    { nome: "Università della Calabria", citta: "Rende (CS)", regione: "Calabria", studenti: 23027, link: "https://www.unical.it/" },
+    { nome: "Università degli Studi \"Mediterranea\" di Reggio Calabria", citta: "Reggio Calabria", regione: "Calabria", studenti: 4955, link: "https://www.unirc.it/" },
 
     // CAMPANIA
-    { nome: "Università degli Studi della Campania Luigi Vanvitelli", citta: "Caserta", regione: "Campania", studenti: 25299 },
-    { nome: "Università degli Studi di Napoli 'Federico II'", citta: "Napoli", regione: "Campania", studenti: 71799 },
-    { nome: "Università degli Studi di Napoli 'L'Orientale'", citta: "Napoli", regione: "Campania", studenti: 11164 },
-    { nome: "Università degli Studi di Napoli 'Parthenope'", citta: "Napoli", regione: "Campania", studenti: 14716 },
-    { nome: "Università degli Studi di Salerno", citta: "Fisciano", regione: "Campania", studenti: 33332 },
-    { nome: "Università degli Studi del Sannio", citta: "Benevento", regione: "Campania", studenti: 3768 },
+    { nome: "Università degli Studi della Campania Luigi Vanvitelli", citta: "Caserta", regione: "Campania", studenti: 25299, link: "https://unicampania.it/" },
+    { nome: "Università degli Studi di Napoli 'Federico II'", citta: "Napoli", regione: "Campania", studenti: 71799, link: "https://www.unina.it/it/" },
+    { nome: "Università degli Studi di Napoli 'L'Orientale'", citta: "Napoli", regione: "Campania", studenti: 11164, link: "https://www.unior.it/it" },
+    { nome: "Università degli Studi di Napoli 'Parthenope'", citta: "Napoli", regione: "Campania", studenti: 14716, link: "https://www.uniparthenope.it/" },
+    { nome: "Università degli Studi di Salerno", citta: "Fisciano (SA)", regione: "Campania", studenti: 33332, link: "https://www.unisa.it/" },
+    { nome: "Università degli Studi del Sannio", citta: "Benevento", regione: "Campania", studenti: 3768, link: "https://www.unisannio.it/it" },
 
     // EMILIA-ROMAGNA
-    { nome: "Alma Mater Studiorum - Università di Bologna", citta: "Bologna", regione: "Emilia-Romagna", studenti: 96945 },
-    { nome: "Università degli Studi di Ferrara", citta: "Ferrara", regione: "Emilia-Romagna", studenti: 28522 },
-    { nome: "Università degli Studi di Modena e Reggio Emilia", citta: "Modena - Reggio Emilia", regione: "Emilia-Romagna", studenti: 25705 },
-    { nome: "Università degli Studi di Parma", citta: "Parma", regione: "Emilia-Romagna", studenti: 35377 },
+    { nome: "Alma Mater Studiorum - Università di Bologna", citta: "Bologna", regione: "Emilia-Romagna", studenti: 96945, link: "https://www.unibo.it/it" },
+    { nome: "Università degli Studi di Ferrara", citta: "Ferrara", regione: "Emilia-Romagna", studenti: 28522, link: "https://www.unife.it/it" },
+    { nome: "Università degli Studi di Modena e Reggio Emilia", citta: "Modena - Reggio Emilia", regione: "Emilia-Romagna", studenti: 25705, link: "https://www.unimore.it/it" },
+    { nome: "Università degli Studi di Parma", citta: "Parma", regione: "Emilia-Romagna", studenti: 35377, link: "https://www.unipr.it/" },
 
     // FRIULI-VENEZIA GIULIA
-    { nome: "Università degli Studi di Trieste", citta: "Trieste", regione: "Friuli-Venezia Giulia", studenti: 15759 },
-    { nome: "Università degli Studi di Udine", citta: "Udine", regione: "Friuli-Venezia Giulia", studenti: 15269 },
-    
+    { nome: "Università degli Studi di Trieste", citta: "Trieste", regione: "Friuli-Venezia Giulia", studenti: 15759, link: "https://portale.units.it/it" },
+    { nome: "Università degli Studi di Udine", citta: "Udine", regione: "Friuli-Venezia Giulia", studenti: 15269, link: "https://www.uniud.it/it" },
+
     // LAZIO
-    { nome: "Università degli Studi di Cassino e del Lazio Meridionale", citta: "Cassino", regione: "Lazio", studenti: 6983 },
-    { nome: "Università degli Studi di Roma 'Foro Italico'", citta: "Roma", regione: "Lazio", studenti: 2377 },
-    { nome: "Università degli Studi di Roma 'La Sapienza'", citta: "Roma", regione: "Lazio", studenti: 120000 },
-    { nome: "Università degli Studi di Roma Tor Vergata", citta: "Roma", regione: "Lazio", studenti: 35000 },
-    { nome: "Università degli Studi Roma Tre", citta: "Roma", regione: "Lazio", studenti: 37051 },
-    { nome: "Università degli Studi della Tuscia", citta: "Viterbo", regione: "Lazio", studenti: 7666 },
-    
+    { nome: "Università degli Studi di Cassino e del Lazio Meridionale", citta: "Cassino", regione: "Lazio", studenti: 6983, link: "https://www.unicas.it/" },
+    { nome: "Università degli Studi di Roma \"Foro Italico\"", citta: "Roma", regione: "Lazio", studenti: 2377, link: "https://www.uniroma4.it/" },
+    { nome: "Università degli Studi di Roma \"La Sapienza\"", citta: "Roma", regione: "Lazio", studenti: 120000, link: "https://www.uniroma1.it/it/" },
+    { nome: "Università degli Studi di Roma Tor Vergata", citta: "Roma", regione: "Lazio", studenti: 35000, link: "https://web.uniroma2.it/it" },
+    { nome: "Università degli Studi Roma Tre", citta: "Roma", regione: "Lazio", studenti: 37051, link: "https://www.uniroma3.it/" },
+    { nome: "Università degli Studi della Tuscia", citta: "Viterbo", regione: "Lazio", studenti: 7666, link: "https://www.unitus.it/" },
+
     // LIGURIA
-    { nome: "Università degli Studi di Genova", citta: "Genova", regione: "Liguria", studenti: 31860 },
-    
+    { nome: "Università degli Studi di Genova", citta: "Genova", regione: "Liguria", studenti: 31860, link: "https://unige.it/" },
+
     // LOMBARDIA
-    { nome: "Università degli Studi di Bergamo", citta: "Bergamo", regione: "Lombardia", studenti: 19947 },
-    { nome: "Università degli Studi di Brescia", citta: "Brescia", regione: "Lombardia", studenti: 16800 },
-    { nome: "Politecnico di Milano", citta: "Milano", regione: "Lombardia", studenti: 47959 },
-    { nome: "Università degli Studi di Milano", citta: "Milano", regione: "Lombardia", studenti: 59177 },
-    { nome: "Università degli Studi di Milano-Bicocca", citta: "Milano", regione: "Lombardia", studenti: 36263 },
-    { nome: "Università degli Studi di Pavia", citta: "Pavia", regione: "Lombardia", studenti: 25070 },
-    { nome: "Università degli Studi dell'Insubria", citta: "Varese - Como", regione: "Lombardia", studenti: 11414 },
-    
+    { nome: "Università degli Studi di Bergamo", citta: "Bergamo", regione: "Lombardia", studenti: 19947, link: "https://www.unibg.it/" },
+    { nome: "Università degli Studi di Brescia", citta: "Brescia", regione: "Lombardia", studenti: 16800, link: "https://www.unibs.it/it" },
+    { nome: "Politecnico di Milano", citta: "Milano", regione: "Lombardia", studenti: 47959, link: "https://www.polimi.it/" },
+    { nome: "Università degli Studi di Milano", citta: "Milano", regione: "Lombardia", studenti: 59177, link: "https://www.unimi.it/it" },
+    { nome: "Università degli Studi di Milano-Bicocca", citta: "Milano", regione: "Lombardia", studenti: 36263, link: "https://www.unimib.it/" },
+    { nome: "Università degli Studi di Pavia", citta: "Pavia", regione: "Lombardia", studenti: 25070, link: "https://portale.unipv.it/it" },
+    { nome: "Università degli Studi dell'Insubria", citta: "Varese - Como", regione: "Lombardia", studenti: 11414, link: "https://www.uninsubria.it/" },
+
     // MARCHE
-    { nome: "Università Politecnica delle Marche", citta: "Ancona", regione: "Marche", studenti: 15439 },
-    { nome: "Università degli Studi di Camerino", citta: "Camerino", regione: "Marche", studenti: 5716 },
-    { nome: "Università degli Studi di Macerata", citta: "Macerata", regione: "Marche", studenti: 9259 },
-    { nome: "Università degli Studi di Urbino 'Carlo Bo'", citta: "Urbino", regione: "Marche", studenti: 17409 },
-    
+    { nome: "Università Politecnica delle Marche", citta: "Ancona", regione: "Marche", studenti: 15439, link: "https://www.univpm.it/Entra/" },
+    { nome: "Università degli Studi di Camerino", citta: "Camerino (MC)", regione: "Marche", studenti: 5716, link: "https://www.unicam.it/" },
+    { nome: "Università degli Studi di Macerata", citta: "Macerata", regione: "Marche", studenti: 9259, link: "https://www.unimc.it/it" },
+    { nome: "Università degli Studi di Urbino \"Carlo Bo\"", citta: "Urbino", regione: "Marche", studenti: 17409, link: "https://www.uniurb.it/" },
+
     // MOLISE
-    { nome: "Università degli Studi del Molise", citta: "Campobasso", regione: "Molise", studenti: 7001 },
-    
+    { nome: "Università degli Studi del Molise", citta: "Campobasso", regione: "Molise", studenti: 7001, link: "https://www3.unimol.it/" },
+
     // PIEMONTE
-    { nome: "Università degli Studi del Piemonte Orientale 'Amedeo Avogadro'", citta: "Alessandria - Novara - Vercelli", regione: "Piemonte", studenti: 16802 },
-    { nome: "Università degli Studi di Torino", citta: "Torino", regione: "Piemonte", studenti: 83000 },
-    { nome: "Politecnico di Torino", citta: "Torino", regione: "Piemonte", studenti: 34721 },
-    
+    { nome: "Università degli Studi del Piemonte Orientale \"Amedeo Avogadro\"", citta: "Alessandria - Novara - Vercelli", regione: "Piemonte", studenti: 16802, link: "https://www.uniupo.it/it" },
+    { nome: "Università degli Studi di Torino", citta: "Torino", regione: "Piemonte", studenti: 83000, link: "https://www.unito.it/" },
+    { nome: "Politecnico di Torino", citta: "Torino", regione: "Piemonte", studenti: 34721, link: "https://www.polito.it/" },
+
     // PUGLIA
-    { nome: "Politecnico di Bari", citta: "Bari", regione: "Puglia", studenti: 10072 },
-    { nome: "Università degli Studi di Bari Aldo Moro", citta: "Bari", regione: "Puglia", studenti: 40530 },
-    { nome: "Università degli Studi di Foggia", citta: "Foggia", regione: "Puglia", studenti: 13560 },
-    { nome: "Università del Salento", citta: "Lecce", regione: "Puglia", studenti: 20201 },
+    { nome: "Politecnico di Bari", citta: "Bari", regione: "Puglia", studenti: 10072, link: "https://www.poliba.it/" },
+    { nome: "Università degli Studi di Bari Aldo Moro", citta: "Bari", regione: "Puglia", studenti: 40530, link: "https://www.uniba.it/it" },
+    { nome: "Università degli Studi di Foggia", citta: "Foggia", regione: "Puglia", studenti: 13560, link: "https://www.unifg.it/it" },
+    { nome: "Università del Salento", citta: "Lecce", regione: "Puglia", studenti: 20201, link: "https://www.unisalento.it/" },
 
     // SARDEGNA
-    { nome: "Università degli Studi di Cagliari", citta: "Cagliari", regione: "Sardegna", studenti: 25263 },
-    { nome: "Università degli Studi di Sassari", citta: "Sassari", regione: "Sardegna", studenti: 13507 },
-    
+    { nome: "Università degli Studi di Cagliari", citta: "Cagliari", regione: "Sardegna", studenti: 25263, link: "https://www.unica.it/it" },
+    { nome: "Università degli Studi di Sassari", citta: "Sassari", regione: "Sardegna", studenti: 13507, link: "https://www.uniss.it/it" },
+
     // SICILIA
-    { nome: "Università degli Studi di Catania", citta: "Catania", regione: "Sicilia", studenti: 40287 },
-    { nome: "Università degli Studi di Messina", citta: "Messina", regione: "Sicilia", studenti: 23565 },
-    { nome: "Università degli Studi di Palermo", citta: "Palermo", regione: "Sicilia", studenti: 41498 },
-    
+    { nome: "Università degli Studi di Catania", citta: "Catania", regione: "Sicilia", studenti: 40287, link: "https://www.unict.it/" },
+    { nome: "Università degli Studi di Messina", citta: "Messina", regione: "Sicilia", studenti: 23565, link: "https://www.unime.it/" },
+    { nome: "Università degli Studi di Palermo", citta: "Palermo", regione: "Sicilia", studenti: 41498, link: "https://www.unipa.it/" },
+
     // TOSCANA
-    { nome: "Università degli Studi di Firenze", citta: "Firenze", regione: "Toscana", studenti: 51529 },
-    { nome: "Università di Pisa", citta: "Pisa", regione: "Toscana", studenti: 51279 },
-    { nome: "Università degli Studi di Siena", citta: "Siena", regione: "Toscana", studenti: 15589 },
-    { nome: "Università per stranieri di Siena", citta: "Siena", regione: "Toscana", studenti: 2242 },
-    
+    { nome: "Università degli Studi di Firenze", citta: "Firenze", regione: "Toscana", studenti: 51529, link: "https://www.unifi.it/it" },
+    { nome: "Università di Pisa", citta: "Pisa", regione: "Toscana", studenti: 51279, link: "https://www.unipi.it/" },
+    { nome: "Università degli Studi di Siena", citta: "Siena", regione: "Toscana", studenti: 15589, link: "https://www.unisi.it/" },
+    { nome: "Università per stranieri di Siena", citta: "Siena", regione: "Toscana", studenti: 2242, link: "https://www.unistrasi.it/" },
+
     // TRENTINO ALTO-ADIGE
-    { nome: "Università degli Studi di Trento", citta: "Trento", regione: "Trentino Alto-Adige", studenti: 16410 },
-    
+    { nome: "Università degli Studi di Trento", citta: "Trento", regione: "Trentino Alto-Adige", studenti: 16410, link: "https://www.unitn.it/it" },
+
     // UMBRIA
-    { nome: "Università degli Studi di Perugia", citta: "Perugia", regione: "Umbria", studenti: 27000 },
-    { nome: "Università per stranieri di Perugia", citta: "Perugia", regione: "Umbria", studenti: 956 },
-    
+    { nome: "Università degli Studi di Perugia", citta: "Perugia", regione: "Umbria", studenti: 27000, link: "https://www.unipg.it/" },
+    { nome: "Università per stranieri di Perugia", citta: "Perugia", regione: "Umbria", studenti: 956, link: "https://www.unistrapg.it/" },
+
     // VENETO
-    { nome: "Università degli Studi di Padova", citta: "Padova", regione: "Veneto", studenti: 74500 },
-    { nome: "Università Ca' Foscari Venezia", citta: "Venezia", regione: "Veneto", studenti: 20795 },
-    { nome: "Università Iuav di Venezia", citta: "Venezia", regione: "Veneto", studenti: 4200 },
-    { nome: "Università degli Studi di Verona", citta: "Verona", regione: "Veneto", studenti: 24190 },
+    { nome: "Università degli Studi di Padova", citta: "Padova", regione: "Veneto", studenti: 74500, link: "https://www.unipd.it/" },
+    { nome: "Università Ca' Foscari Venezia", citta: "Venezia", regione: "Veneto", studenti: 20795, link: "https://www.unive.it/" },
+    { nome: "Università Iuav di Venezia", citta: "Venezia", regione: "Veneto", studenti: 4200, link: "https://www.iuav.it/it" },
+    { nome: "Università degli Studi di Verona", citta: "Verona", regione: "Veneto", studenti: 24190, link: "https://www.univr.it/" },
 ];
 
 const superiori = [
     // ABRUZZO
-    { nome: "Scuola universitaria superiore “Gran Sasso Science Institute” (GSSI)", citta: "L'Aquila", regione: "Abruzzo", studenti: 160 },
-    
+    { nome: "Scuola universitaria superiore \"Gran Sasso Science Institute\" (GSSI)", citta: "L'Aquila", regione: "Abruzzo", studenti: 160, link: "https://gssi.it/" },
+
     // CAMPANIA
-    { nome: "Scuola Superiore Meridionale", citta: "Napoli", regione: "Campania", studenti: 150 },
-    
+    { nome: "Scuola Superiore Meridionale", citta: "Napoli", regione: "Campania", studenti: 150, link: "https://www.ssmeridionale.it/" },
+
     // FRIULI-VENEZIA GIULIA
-    { nome: "Scuola Internazionale Superiore di Studi Avanzati", citta: "Trieste", regione: "Friuli-Venezia Giulia", studenti: 302 },
-    
+    { nome: "Scuola Internazionale Superiore di Studi Avanzati", citta: "Trieste", regione: "Friuli-Venezia Giulia", studenti: 302, link: "https://www.sissa.it/" },
+
     // LAZIO
-    { nome: "Centro Alti Studi per la Difesa", citta: "Roma", regione: "Lazio", studenti: 1000 },
-    
+    { nome: "Centro Alti Studi per la Difesa", citta: "Roma", regione: "Lazio", studenti: 1000, link: "https://www.difesa.it/smd/casd/index/26451.html" },
+
     // LOMBARDIA
-    { nome: "Istituto Universitario di Studi Superiori", citta: "Pavia", regione: "Lombardia", studenti: 293 },
-    
+    { nome: "Istituto Universitario di Studi Superiori", citta: "Pavia", regione: "Lombardia", studenti: 293, link: "https://www.iusspavia.it/it" },
+
     // TOSCANA
-    { nome: "Scuola IMT Alti Studi Lucca", citta: "Lucca", regione: "Toscana", studenti: 254 },
-    { nome: "Scuola Normale Superiore", citta: "Pisa", regione: "Toscana", studenti: 576 },
-    { nome: "Scuola Superiore Sant'Anna", citta: "Pisa", regione: "Toscana", studenti: 659 },
+    { nome: "Scuola IMT Alti Studi Lucca", citta: "Lucca", regione: "Toscana", studenti: 254, link: "https://www.imtlucca.it/homepage" },
+    { nome: "Scuola Normale Superiore", citta: "Pisa", regione: "Toscana", studenti: 576, link: "https://www.sns.it/it" },
+    { nome: "Scuola Superiore Sant'Anna", citta: "Pisa", regione: "Toscana", studenti: 659, link: "https://www.santannapisa.it/it" },
 ];
 
 const nonstatali = [
     // CALABRIA
-    { nome: 'Università per Stranieri "Dante Alighieri"', citta: "Reggio Calabria", regione: "Calabria", studenti: 444 },
-    
+    { nome: 'Università per Stranieri "Dante Alighieri"', citta: "Reggio Calabria", regione: "Calabria", studenti: 444, link: "https://www.unidarc.it/" },
+
     // CAMPANIA
-    { nome: 'Università degli Studi “Suor Orsola Benincasa”', citta: "Napoli", regione: "Campania", studenti: 8800 },
-    
+    { nome: 'Università degli Studi “Suor Orsola Benincasa”', citta: "Napoli", regione: "Campania", studenti: 8800, link: "https://www.unisob.na.it/" },
+
     // LAZIO
-    { nome: "Link Campus University", citta: "Roma", regione: "Lazio", studenti: 1200 },
-    { nome: 'LUISS - Libera Università Internazionale Studi Sociali "Guido Carli"', citta: "Roma", regione: "Lazio", studenti: 12000 },
-    { nome: 'LUMSA - Libera Università Maria Santissima Assunta', citta: "Roma", regione: "Lazio", studenti: 9900 },
-    { nome: 'Saint Camillus International University of Health and Medical Sciences', citta: "Roma", regione: "Lazio", studenti: 2500 },
-    { nome: 'Università "Campus Bio-medico”', citta: "Roma", regione: "Lazio", studenti: 4000 },
-    { nome: 'Università degli Studi Europea', citta: "Roma", regione: "Lazio", studenti: 3300 },
-    { nome: 'Università degli Studi Internazionali di Roma', citta: "Roma", regione: "Lazio", studenti: 1354 },
-    
+    { nome: "Link Campus University", citta: "Roma", regione: "Lazio", studenti: 1200, link: "https://www.unilink.it/" },
+    { nome: 'LUISS - Libera Università Internazionale Studi Sociali "Guido Carli"', citta: "Roma", regione: "Lazio", studenti: 12000, link: "https://www.luiss.it/" },
+    { nome: 'LUMSA - Libera Università Maria Santissima Assunta', citta: "Roma", regione: "Lazio", studenti: 9900, link: "https://lumsa.it/it/home" },
+    { nome: 'Saint Camillus International University of Health and Medical Sciences', citta: "Roma", regione: "Lazio", studenti: 2500, link: "https://unicamillus.org/" },
+    { nome: 'Università "Campus Bio-medico”', citta: "Roma", regione: "Lazio", studenti: 4000, link: "https://www.unicampus.it/" },
+    { nome: 'Università degli Studi Europea', citta: "Roma", regione: "Lazio", studenti: 3300, link: "https://www.uer.it/" },
+    { nome: 'Università degli Studi Internazionali di Roma', citta: "Roma", regione: "Lazio", studenti: 1354, link: "https://www.unint.eu/" },
+
     // LOMBARDIA
-    { nome: 'Humanitas University', citta: "Rozzano (MI)", regione: "Lombardia", studenti: 2700 },
-    { nome: 'IULM - Libera università di lingue e comunicazione', citta: "Milano", regione: "Lombardia", studenti: 5000 },
-    { nome: 'LIUC - Università Cattaneo', citta: "Castellanza (VA)", regione: "Lombardia", studenti: 2800 },
-    { nome: 'Università Cattolica del Sacro Cuore', citta: "Milano", regione: "Lombardia", studenti: 40837 },
-    { nome: 'Università commerciale "Luigi Bocconi"', citta: "Milano", regione: "Lombardia", studenti: 15200 },
-    { nome: 'Università Vita-Salute “San Raffaele”', citta: "Milano", regione: "Lombardia", studenti: 5158 },
-    
+    { nome: 'Humanitas University', citta: "Rozzano (MI)", regione: "Lombardia", studenti: 2700, link: "https://www.hunimed.eu/it/" },
+    { nome: 'IULM - Libera università di lingue e comunicazione', citta: "Milano", regione: "Lombardia", studenti: 5000, link: "https://www.iulm.it/it/home" },
+    { nome: 'LIUC - Università Cattaneo', citta: "Castellanza (VA)", regione: "Lombardia", studenti: 2800, link: "https://www.liuc.it/" },
+    { nome: 'Università Cattolica del Sacro Cuore', citta: "Milano", regione: "Lombardia", studenti: 40837, link: "https://www.unicatt.it/" },
+    { nome: 'Università commerciale "Luigi Bocconi"', citta: "Milano", regione: "Lombardia", studenti: 15200, link: "https://www.unibocconi.it/it" },
+    { nome: 'Università Vita-Salute “San Raffaele”', citta: "Milano", regione: "Lombardia", studenti: 5158, link: "https://www.unisr.it/" },
+
     // PIEMONTE
-    { nome: 'Università degli Studi di Scienze Gastronomiche', citta: "Pollenzo (CN)", regione: "Piemonte", studenti: 1000 },
-    
+    { nome: 'Università degli Studi di Scienze Gastronomiche', citta: "Pollenzo (CN)", regione: "Piemonte", studenti: 1000, link: "https://www.unisg.it/" },
+
     // PUGLIA
-    { nome: 'LUM - Libera Università Mediterranea “Giuseppe Degennaro”', citta: "Casamassima (BA)", regione: "Puglia", studenti: 3000 },
-    
+    { nome: 'LUM - Libera Università Mediterranea “Giuseppe Degennaro”', citta: "Casamassima (BA)", regione: "Puglia", studenti: 3000, link: "https://www.lum.it/" },
+
     // SICILIA
-    { nome: 'Università degli Studi “Kore”', citta: "Enna", regione: "Sicilia", studenti: 7411 },
-    
+    { nome: 'Università degli Studi “Kore”', citta: "Enna", regione: "Sicilia", studenti: 7411, link: "https://uke.it/" },
+
     // TRENTINO ALTO-ADIGE
-    { nome: 'Libera Università di Bolzano', citta: "Bolzano", regione: "Trentino Alto-Adige", studenti: 4500 },
-    
+    { nome: 'Libera Università di Bolzano', citta: "Bolzano", regione: "Trentino Alto-Adige", studenti: 4500, link: "https://www.unibz.it/it/" },
+
     // VALLE D'AOSTA
-    { nome: 'Università della Valle d’Aosta', citta: "Aosta", regione: "Valle d’Aosta", studenti: 1032 },
+    { nome: 'Università della Valle d’Aosta', citta: "Aosta", regione: "Valle d’Aosta", studenti: 1032, link: "https://www.univda.it/" },
 ];
 
 const corpoTabella = document.getElementById("tabellauni");
 
-function renderizzaTabella(lista){
+function renderizzaTabella(lista) {
     corpoTabella.innerHTML = "";
     let n = 1;
     for (let uni of lista) {
+        let link = uni.link ? uni.link : "#";
+        let nolink = uni.link ? "" : "onclick='alert(\"Sito non trovato\"); return false;'";
         let riga = `<tr>
             <td>${n}</td>
-            <td>${uni.nome}</td>
+            <td><a href="${link}" ${nolink}>${uni.nome}</a></td>
             <td>${uni.citta}</td>
             <td>${uni.regione}</td>
             <td>${uni.studenti}</td>
