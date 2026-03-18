@@ -171,7 +171,7 @@ function renderizzaTabella(lista) {
         let nolink = uni.link ? "" : "onclick='alert(\"Sito non trovato\"); return false;'";
         let riga = `<tr>
             <td>${n}</td>
-            <td><a href="${link}" ${nolink}>${uni.nome}</a></td>
+            <td><a class="uni" href="${link}" ${nolink}>${uni.nome}</a></td>
             <td>${uni.citta}</td>
             <td>${uni.regione}</td>
             <td>${uni.studenti}</td>

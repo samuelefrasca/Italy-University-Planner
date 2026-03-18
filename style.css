@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ddd;
+    background-color: #eee;
     color: #000;
+    margin: 0;
 }
 
 .container {
@@ -9,28 +10,73 @@ body {
     margin: 0 auto;
 }
 
+header {
+    color: white;
+    background-color: #000044;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a.reflink {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.reflink:hover {
+    text-decoration: underline;
+}
+
+a.reflink:visited {
+    color: #fff;
+}
+
+a.uni {
+    text-decoration: none;
+    color: #000;
+}
+
+a.uni:hover {
+    text-decoration: underline;
+}
+
+a.uni:visited {
+    color: #000;
+}
+
 h3 {
-    margin-top: 10px;
     margin-bottom: 5px;
 }
 
 .altreuni {
     text-align: left;
-    margin-bottom: 20px;
 }
 
-.title, .subtitle {
+.title {
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.subtitle {
     text-align: center;
     width: 100%;
 }
 
 table {
-    border: 1px solid black;
+    border: 1px solid #000044;
+    border-radius: 5px;
     background-color: #fff;
     width: 100%;
 }
 
 th {
+    border-radius: 5px;
+    border: 1px solid #000044;
     background-color: #eee;
 }
 
@@ -38,22 +84,10 @@ tr:hover {
     background-color: #eee;
 }
 
-th, td {
-    border: 1px solid black;
+th,
+td {
+    border: 1px solid #000044;
+    border-radius: 5px;
     padding: 8px;
     text-align: left;
-}
-
-a {
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #000;
 }
