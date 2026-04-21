@@ -126,7 +126,14 @@ tr:hover {
     background-color: #eee;
 }
 
-th,
+th {
+    white-space: nowrap;
+    border: 1px solid #000044;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: left;
+}
+
 td {
     border: 1px solid #000044;
     border-radius: 5px;

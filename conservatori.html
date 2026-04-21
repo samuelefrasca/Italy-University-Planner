@@ -7,6 +7,7 @@
     <title>IUD - Conservatori statali</title>
     <meta name="description" content="Elenco completo dei conservatori statali in Italia, organizzato per regione e città.">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="iud_icon.png" sizes="144x144">
     <meta property="og:site_name" content="Italy University Directory">
     <script type="application/ld+json">
@@ -44,9 +45,10 @@
                     <tr>
                         <th class="select-none"></th>
                         <th class="select-none">Università</th>
+                        <th class="select-none">Sigla</th>
                         <th class="select-none">Città</th>
-                        <th class="select-none"><a onclick="ordinaPerRegioneConservatori()">Regione</a></th>
-                        <th class="select-none"><a onclick="ordinaPerStudentiConservatori()">Studenti</a></th>
+                        <th class="select-none"><a onclick="ordinaPerRegioneConservatori()">Regione <i class="fa-solid fa-sort"></i></a></th>
+                        <th class="select-none"><a onclick="ordinaPerStudentiConservatori()">Studenti <i class="fa-solid fa-sort"></i></a></th>
                     </tr>
                 </thead>
                 <tbody id="tabellauni"></tbody>
