@@ -334,7 +334,7 @@ const conservatori = [
 
 const afamprivati = [
     // BASILICATA
-    { nome: "Istituto del Design", sigla: "IDD", citta: "Matera", regione: "Basilicata", studenti: 58, link: "https://www.istitutodeldesign.it/" },
+    { nome: "Istituto del Design", sigla: "IdD", citta: "Matera", regione: "Basilicata", studenti: 58, link: "https://www.istitutodeldesign.it/" },
 
     // CAMPANIA
     { nome: "Accademia della Moda. Institute of Universal Art and Design", sigla: "IUAD", citta: "Napoli", regione: "Campania", studenti: 1279, link: "https://www.accademiamoda.it/" },
@@ -344,7 +344,7 @@ const afamprivati = [
     { nome: "The Bernstein School of Musical Theater", sigla: "BSMT", citta: "Bologna", regione: "Emilia-Romagna", studenti: 128, link: "https://www.bsmt.it/" },
 
     // FRIULI-VENEZIA GIULIA
-    { nome: "Accademia di Belle Arti G.B. Tiepolo", sigla: "AbaUd", citta: "Udine", regione: "Friuli-Venezia Giulia", studenti: 549, link: "https://www.abaud.it/" },
+    { nome: "Accademia di Belle Arti G.B. Tiepolo", sigla: "ABA Udine", citta: "Udine", regione: "Friuli-Venezia Giulia", studenti: 549, link: "https://www.abaud.it/" },
 
     // LAZIO
     { nome: "Accademia Costume & Moda", sigla: "ACM", citta: "Roma", regione: "Lazio", studenti: 485, link: "https://www.accademiacostumeemoda.it/" },
@@ -355,19 +355,19 @@ const afamprivati = [
     { nome: "Quasar Institute for Advanced Design", sigla: "Quasar", citta: "Roma", regione: "Lazio", studenti: 202, link: "https://quasarinstitute.it/" },
     { nome: "Saint Louis College of Music", sigla: "SLMC", citta: "Roma", regione: "Lazio", studenti: 665, link: "https://www.saintlouis.eu/" },
     { nome: "Rome University of Fine Arts", sigla: "RUFA", citta: "Roma", regione: "Lazio", studenti: 1241, link: "https://www.unirufa.it/" },
-    { nome: "Accademia di Belle Arti Lorenzo da Viterbo", sigla: "Abav", citta: "Viterbo", regione: "Lazio", studenti: 137, link: "https://www.abav.it/" },
+    { nome: "Accademia di Belle Arti Lorenzo da Viterbo", sigla: "ABAV", citta: "Viterbo", regione: "Lazio", studenti: 137, link: "https://www.abav.it/" },
     
     // LIGURIA
-    { nome: "Accademia di Belle Arti Isadora Duncan", sigla: "Duncan", citta: "Sanremo (IM)", regione: "Liguria", studenti: 279, link: "https://www.accademiabelleartisanremo.it/" },
+    { nome: "Accademia di Belle Arti Isadora Duncan", sigla: "ABA Sanremo", citta: "Sanremo (IM)", regione: "Liguria", studenti: 279, link: "https://www.accademiabelleartisanremo.it/" },
     
     // LOMBARDIA
-    { nome: "Accademia di Belle Arti ACME", sigla: "ACME", citta: "Milano", regione: "Lombardia", studenti: 166, link: "https://www.acmemilano.it/" },
-    { nome: "Accademia Aldo Galli", sigla: "Galli", citta: "Como", regione: "Lombardia", studenti: 82, link: "https://www.accademiagalli.it/" },
     { nome: "Accademia SantaGiulia", sigla: "SantaGiulia", citta: "Brescia", regione: "Lombardia", studenti: 966, link: "https://www.accademiasantagiulia.it/" },
+    { nome: "Accademia Aldo Galli", sigla: "Galli", citta: "Como", regione: "Lombardia", studenti: 82, link: "https://www.accademiagalli.it/" },
+    { nome: "Accademia di Belle Arti ACME", sigla: "ACME", citta: "Milano", regione: "Lombardia", studenti: 166, link: "https://www.acmemilano.it/" },
     { nome: "Accademia del Lusso", sigla: "ADL", citta: "Milano", regione: "Lombardia", studenti: 233, link: "https://www.accademiadellusso.com/" },
     { nome: "Accademia Teatro alla Scala", sigla: "Scala", citta: "Milano", regione: "Lombardia", studenti: 73, link: "https://www.accademialascala.it/" },
-    { nome: "Civica Scuola di Musica Claudio Abbado", sigla: "CivicaMusica", citta: "Milano", regione: "Lombardia", studenti: 554, link: "https://musica.fondazionemilano.eu/" },
-    { nome: "Civica Scuola di Teatro Paolo Grassi", sigla: "PaoloGrassi", citta: "Milano", regione: "Lombardia", studenti: 113, link: "https://teatro.fondazionemilano.eu/" },
+    { nome: "Civica Scuola di Musica Claudio Abbado", sigla: "Civica Musica", citta: "Milano", regione: "Lombardia", studenti: 554, link: "https://musica.fondazionemilano.eu/" },
+    { nome: "Civica Scuola di Teatro Paolo Grassi", sigla: "Civica Teatro", citta: "Milano", regione: "Lombardia", studenti: 113, link: "https://teatro.fondazionemilano.eu/" },
     { nome: "Istituto Europeo di Design", sigla: "IED", citta: "Milano", regione: "Lombardia", studenti: 4923, link: "https://www.ied.it/milano" },
     { nome: "SAE Institute", sigla: "SAE", citta: "Milano", regione: "Lombardia", studenti: 323, link: "https://www.sae.edu/ita/" },
     { nome: "CPM Music Institute", sigla: "CPM", citta: "Milano", regione: "Lombardia", studenti: 278, link: "https://www.cpm.it/" },
@@ -380,21 +380,21 @@ const afamprivati = [
     { nome: "Istituto Poliarte", sigla: "Poliarte", citta: "Ancona", regione: "Marche", studenti: 192, link: "https://www.poliarte.it/" },
 
     // PIEMONTE
-    { nome: "Accademia di Belle Arti di Cuneo", sigla: "AbaCn", citta: "Cuneo", regione: "Piemonte", studenti: 1306, link: "https://accademiabellearticuneo.it/" },
+    { nome: "Accademia di Belle Arti di Cuneo", sigla: "ABA Cuneo", citta: "Cuneo", regione: "Piemonte", studenti: 1306, link: "https://accademiabellearticuneo.it/" },
     { nome: "Istituto d'Arte Applicata e Design", sigla: "IAAD", citta: "Torino", regione: "Piemonte", studenti: 579, link: "https://www.iaad.it/" },
     { nome: "Scuola del Teatro Musicale", sigla: "STM", citta: "Novara", regione: "Piemonte", studenti: 105, link: "https://www.scuolateatromusicale.it/" },
 
     // SICILIA
     { nome: "Accademia di Belle Arti Rosario Gagliardi", sigla: "MADE", citta: "Siracusa", regione: "Sicilia", studenti: 96, link: "https://www.madeprogram.it/" },
-    { nome: "Accademia di Design e Comunicazione Visiva", sigla: "AbaDir", citta: "Sant'Agata li Battiati (CT)", regione: "Sicilia", studenti: 78, link: "https://www.abadir.net/" },
+    { nome: "Accademia di Design e Comunicazione Visiva", sigla: "Abadir", citta: "Sant'Agata li Battiati (CT)", regione: "Sicilia", studenti: 78, link: "https://www.abadir.net/" },
 
     // TOSCANA
     { nome: "Istituto Modartech", sigla: "Modartech", citta: "Pontedera (PI)", regione: "Toscana", studenti: 369, link: "https://www.modartech.com/" },
-    { nome: "Scuola di Musica di Fiesole", sigla: "Fiesole", citta: "Fiesole (FI)", regione: "Toscana", studenti: 179, link: "https://www.scuolamusicafiesole.it/" },
+    { nome: "Scuola di Musica di Fiesole", sigla: "SMF", citta: "Fiesole (FI)", regione: "Toscana", studenti: 179, link: "https://www.scuolamusicafiesole.it/" },
     { nome: "Accademia Nazionale del Jazz", sigla: "SienaJazz", citta: "Siena", regione: "Toscana", studenti: 137, link: "https://www.sienajazz.it/" },
 
     // TRENTINO-ALTO ADIGE
-    { nome: "Trentino Art Academy", sigla: "TAA", citta: "Trento", regione: "Trentino-Alto Adige", studenti: 90, link: "https://www.trentinoartacademy.it/" },
+    { nome: "Trentino Art Academy", sigla: "TNAA", citta: "Trento", regione: "Trentino-Alto Adige", studenti: 90, link: "https://www.trentinoartacademy.it/" },
 
     // UMBRIA
     { nome: "Istituto Italiano Design", sigla: "IID", citta: "Perugia", regione: "Umbria", studenti: 45, link: "https://istitutoitalianodesign.com/" },
